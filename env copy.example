@@ -1,0 +1,20 @@
+# RPC 및 계정 설정
+RPC_URL=https://rpc.memecore.net/
+PRIVATE_KEY=
+
+# WETH9 호환 Wrapped ETH 컨트랙트 주소 (MemeCore Mainnet)
+WETH_ADDRESS=0x653e645e3d81a72e71328Bc01A04002945E3ef7A
+
+# 루프 파라미터
+# 총 가스 소모 목표(ETH). 기본 10
+TARGET_SPEND_ETH=10
+# 1회 Wrap/Unwrap 금액(ETH). 기본 1
+AMOUNT_PER_TX_ETH=1
+# 트랜잭션 확정 대기 블록 수. 기본 1
+CONFIRMATIONS=1
+
+# EIP-1559 수수료 옵션(선택)
+# MAX_FEE_PER_GAS_GWEI=50
+# MAX_PRIORITY_FEE_PER_GAS_GWEI=2
+
+
