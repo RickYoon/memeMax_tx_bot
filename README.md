@@ -58,6 +58,40 @@ cp "env copy.example" .env
 npm start
 ```
 
+### Git으로 받아서(clone) 실행하기
+
+Git이 설치되어 있다면 아래가 가장 간단합니다.
+
+1. 저장소 클론
+
+```bash
+git clone https://github.com/RickYoon/memeMax_tx_bot.git
+cd memeMax_tx_bot
+```
+
+- SSH를 쓰신다면: `git@github.com:RickYoon/memeMax_tx_bot.git`
+- 포크/다른 저장소를 쓰는 경우, 본인 저장소 주소로 교체하세요.
+
+2. 의존성 설치
+
+```bash
+npm install
+```
+
+3. 환경 파일 생성
+
+```bash
+cp "env copy.example" .env
+```
+
+4. `.env`에 `RPC_URL`, `PRIVATE_KEY` 등 값 채우기
+
+5. 실행
+
+```bash
+npm start
+```
+
 ### (Git 없이) ZIP으로 받아서 실행하기
 
 Git을 몰라도 됩니다. GitHub 저장소에서 “Code” → “Download ZIP”으로 내려받아 압축을 풀고, 폴더에서 터미널을 열어 아래만 순서대로 실행하세요.
